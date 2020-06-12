@@ -1,0 +1,19 @@
+h1 {
+    text-align: center;
+}
+
+.gameboard {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    background-color: black;
+    width: 600px;
+    height: 600px;
+    margin: auto;
+}
+
+.spot {
+    width: 94%;
+    height: 94%;
+    margin: 5px;
+    background-color: white;
+}
